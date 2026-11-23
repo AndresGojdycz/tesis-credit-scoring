@@ -1,7 +1,7 @@
 """
 Exportar las series macroeconomicas que usa el API para completar las variables macro.
 
-Reproduce los pasos del notebook (modelo_combinado_narrativa.ipynb):
+Reproduce los pasos del notebook (scoring.ipynb):
   - PIB trimestral por industria (BCU), mensualizado repitiendo el valor del trimestre, con
     3 meses de rezago de publicacion; variaciones trimestral (3 meses) e interanual (12 meses)
     dentro de cada industria.
@@ -20,7 +20,7 @@ import pandas as pd
 
 ROOT_DIR = Path(__file__).parent
 MACRO_DIR = ROOT_DIR / "datos macro"
-NOTEBOOK = ROOT_DIR / "notebooks" / "modelo_combinado_narrativa.ipynb"
+NOTEBOOK = ROOT_DIR / "notebooks" / "scoring.ipynb"
 SALIDA = ROOT_DIR / "credit-scoring-api" / "artifacts" / "macro.json"
 CELDA_MAPEO = "4950ef4e"   # celda del notebook con actividad_a_sector
 

@@ -14,7 +14,7 @@ Sistema de credit scoring corporativo en Uruguay, basado en los estados contable
 .
 ├── Tesis Andres Gojdycz.pdf       Trabajo escrito (versión de entrega)
 ├── notebooks/                    Notebook de modelado y EDA
-│   ├── modelo_combinado_narrativa.ipynb   Notebook principal (modelado, scorecard, figuras de la tesis)
+│   ├── scoring.ipynb            Notebook principal (modelado, scorecard, figuras de la tesis)
 │   ├── pipeline_cv.py           Preprocesamiento dentro de la validación cruzada
 │   ├── funciones.py             Funciones de soporte del notebook
 │   ├── graficos_tesis/          Figuras de la tesis, generadas por el notebook
@@ -104,7 +104,7 @@ Requiere acceso a los datos del BROU (no incluidos en el repositorio, por confid
 ```bash
 # Con los datos ubicados en data/:
 uv sync
-uv run jupyter notebook notebooks/modelo_combinado_narrativa.ipynb
+uv run jupyter notebook notebooks/scoring.ipynb
 ```
 
 Tras correr el notebook, regenerar los artefactos para la API:
