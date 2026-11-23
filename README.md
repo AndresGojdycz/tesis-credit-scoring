@@ -46,7 +46,6 @@ Sistema de credit scoring corporativo en Uruguay, basado en los estados contable
 
 - **Datos:** 5.843 balances anuales de 3.179 empresas (cierres entre 11/2019 y 07/2022), partidos por empresa en entrenamiento (4.690) y test (1.153).
 - **Variable objetivo:** atraso de 60 días o más en cualquier institución en los 12 meses posteriores al cierre del balance.
-- **Búsqueda:** cinco modelos (regresión logística, árbol de decisión, Random Forest, XGBoost y MLP) con 140 estrategias de preprocesamiento cada uno, evaluadas con validación cruzada GroupKFold(5) por empresa.
 - **Modelo elegido:** Random Forest con recorte de outliers por IQR, transformación Yeo-Johnson y 107 variables seleccionadas por RFECV.
 - **Desempeño en test:** AUC 0,751 (IC95 0,694 a 0,802) y KS 0,449, con umbral operativo de 0,0835.
 - **Scorecard:** PDO = 50 y base 600, con 4 bandas (Crítico, Comprometido, Aceptable y Bueno) y cortes en 722, 762 y 792.
