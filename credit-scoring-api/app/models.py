@@ -316,7 +316,7 @@ class RiskRating(BaseModel):
 
 class LIMEFeature(BaseModel):
     """Una feature LIME con su contribución"""
-    feature: str = Field(..., description="Nombre/condición de la feature")
+    feature: str = Field(..., description="Nombre de la variable")
     contribution: float = Field(..., description="Contribución al score")
 
 

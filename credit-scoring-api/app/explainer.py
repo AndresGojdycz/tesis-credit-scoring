@@ -93,16 +93,20 @@ class LIMEExplainerService:
                 num_features=num_features
             )
 
-            # Extraer información
-            explanation_list = explanation.as_list()
-
-            top_features = [
-                {
-                    "feature": feat,
-                    "contribution": float(contrib)
-                }
-                for feat, contrib in explanation_list
-            ]
+            # Extraer información: se muestra solo el nombre de la variable; la
+            # condicion de LIME (p. ej. "ROE <= 0.10") queda para el resumen
+            condiciones = dict(explanation.as_list())
+            top_features = []
+            for (indice, contrib), condicion in zip(explanation.as_map()[1], condiciones):
+                nombre = X.columns[indice]
+                # Las partidas de largo plazo llevan el sufijo ".1" en el balance
+                if nombre.endswith(".1"):
+                    nombre = nombre[:-2] + " (largo plazo)"
+                top_features.append({
+                    "feature": nombre,
+                    "contribution": float(contrib),
+                    "condicion": condicion,
+                })
 
             # Predicción local del modelo lineal de LIME
             local_pred = explanation.local_pred[0] if hasattr(explanation, 'local_pred') else None
@@ -137,7 +141,7 @@ class LIMEExplainerService:
         try:
             # Formatear features para el prompt
             features_text = "\n".join(
-                f"- {f['feature']}: {'aumenta' if f['contribution'] > 0 else 'disminuye'} riesgo ({f['contribution']:+.4f})"
+                f"- {f['condicion']}: {'aumenta' if f['contribution'] > 0 else 'disminuye'} riesgo ({f['contribution']:+.4f})"
                 for f in top_features[:8]
             )
 
