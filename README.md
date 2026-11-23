@@ -115,19 +115,3 @@ uv run python export_macro_for_api.py
 ```
 
 El segundo script arma `macro.json` a partir de `datos macro/`, con los mismos pasos del notebook. Con la fecha de cierre del balance y la actividad económica, el API completa el PIB de la industria, el desempleo y sus variaciones.
-
----
-
-## Documentos clave para la lectura
-
-| Archivo | Para qué |
-|---------|----------|
-| `notebooks/modelo_combinado_narrativa.ipynb` | Modelado paso a paso, EDA, scorecard y figuras de la tesis |
-| `credit-scoring-api/artifacts/model_card.json` | Especificación del modelo desplegado |
-| `diccionario.md` | Diccionario de las features del modelo |
-
----
-
-## Contacto
-
-Andrés Gojdycz — andgojdycz@gmail.com
