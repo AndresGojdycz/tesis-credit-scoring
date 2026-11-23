@@ -89,7 +89,7 @@ npm run dev
 
 Dashboard disponible en http://localhost:3000.
 
-### 3. Container Docker (opcional)
+### 3. Container Docker
 
 ```bash
 cd credit-scoring-api
