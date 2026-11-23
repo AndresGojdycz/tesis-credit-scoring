@@ -4,7 +4,7 @@
 **Año:** 2026
 **Institución:** Universidad de Montevideo, Maestría en Ciencia de Datos
 
-Sistema de credit scoring para predicción de default empresarial en Uruguay, basado en los estados contables presentados al BROU y en la Central de Riesgos del BCU. Combina un modelo de Machine Learning (Random Forest), una API REST de inferencia y un dashboard web para uso del analista de crédito.
+Sistema de credit scoring corporativo en Uruguay, basado en los estados contables presentados al BROU y en la Central de Riesgos del BCU. Combina un modelo de Machine Learning (Random Forest) y un dashboard web para uso del analista de crédito.
 
 ---
 
@@ -38,29 +38,19 @@ Sistema de credit scoring para predicción de default empresarial en Uruguay, ba
 
 ---
 
-## Qué NO está incluido (y por qué)
-
-- **`data/`** — Datos de clientes del BROU. No se distribuyen por confidencialidad.
-- **Archivos `.pkl`** — El repositorio no incluye el modelo del API (`credit-scoring-api/artifacts/model.pkl` y `feature_names.pkl`), las predicciones fuera de muestra de la búsqueda (`notebooks/results/pipecv/oof_*.pkl`) ni la muestra de entrenamiento para LIME (`lime_training_data.pkl`). Se regeneran al correr el notebook y `export_artifacts_for_api.py`. Sin `model.pkl` el API no arranca, y sin las predicciones fuera de muestra la búsqueda de estrategias debe correrse completa (`EXPLORAR_PIPECV = True`, unas 3 horas).
-  - La copia entregada en `.zip` sí incluye el modelo del API y las predicciones fuera de muestra. No incluye la muestra de LIME, porque contiene filas de datos reales.
-- **`.venv/` y `code/node_modules/`** — Entornos de dependencias regenerables. Ver instrucciones de setup abajo.
-- **`.env`** — Contiene credenciales (API keys de OpenAI). Se incluye `credit-scoring-api/.env.example` con las variables vacías como referencia.
+> `data/` no está incluido: son datos de clientes del BROU y no se distribuyen por confidencialidad.
 
 ---
 
-## Resumen de la metodología
+## Metodología
 
-- **Datos:** 5.843 balances anuales de 3.179 empresas (empresas y agropecuario), con cierres entre 11/2019 y 07/2022: 4.690 en entrenamiento y 1.153 en test, partidos por empresa.
-- **Variable objetivo (`DEFAULT_FUTURE`):** vale 1 si en algún mes de los 12 posteriores al cierre del balance, [t+1, t+12], la empresa registra en cualquier institución un crédito vencido, en gestión, moroso o castigado por atraso (atraso de 60 días o más). Se excluyen los balances de empresas que ya estaban calificadas en 3, 4 o 5 al cierre y los de actividades financieras, y se exige la ventana de 12 meses observada completa. Tasa de default: 7,80% (456 eventos).
-- **Búsqueda:** cinco modelos (regresión logística, árbol de decisión, Random Forest, XGBoost y MLP) con 140 estrategias de preprocesamiento cada uno (outliers × transformación × selección de variables × balanceo), evaluadas con validación cruzada GroupKFold(5) por empresa y el pipeline completo ajustado en cada partición. Exploración con RandomizedSearchCV y ajuste fino de la mejor estrategia de cada modelo.
-- **Selección:** la estrategia de cada modelo, por AUC de validación cruzada tras el ajuste fino; el modelo, por mayor AUC de entrenamiento del modelo final reentrenado con todo el conjunto de entrenamiento.
-- **Modelo elegido:** Random Forest con recorte de outliers por IQR, transformación Yeo-Johnson, 107 variables seleccionadas por RFECV y sin resampling.
-- **Desempeño:** AUC de validación cruzada 0,688; de entrenamiento 0,825; de test 0,751 (IC95 0,694 a 0,802), con KS de 0,449. Umbral operativo de 0,0835 (promedio de los umbrales de máxima separación KS de cada partición): en test detecta 63 de los 80 defaults (recall 78,8%, precisión 13,3%).
-- **Scorecard:** puntaje con PDO = 50 y base 600; 4 bandas (Crítico, Comprometido, Aceptable y Bueno) con cortes en 722, 762 y 792, elegidos maximizando el Information Value sobre las probabilidades fuera de muestra de entrenamiento. La tasa de default baja en forma monótona en entrenamiento (21,4% a 3,7%); en test, la banda Crítico (37 balances, 3 defaults) queda por debajo de Comprometido.
-- **Serving = evaluación:** el modelo serializado incluye el preprocesamiento completo, ajustado en entrenamiento; el AUC del artefacto recargado reproduce el AUC evaluado en el notebook.
-- **Explicabilidad:** LIME para las explicaciones locales del API, con resúmenes en lenguaje natural generados por OpenAI; en el notebook, SHAP (TreeSHAP) como contraste para un caso.
-
-
+- **Datos:** 5.843 balances anuales de 3.179 empresas (cierres entre 11/2019 y 07/2022), partidos por empresa en entrenamiento (4.690) y test (1.153).
+- **Variable objetivo:** atraso de 60 días o más en cualquier institución en los 12 meses posteriores al cierre del balance.
+- **Búsqueda:** cinco modelos (regresión logística, árbol de decisión, Random Forest, XGBoost y MLP) con 140 estrategias de preprocesamiento cada uno, evaluadas con validación cruzada GroupKFold(5) por empresa.
+- **Modelo elegido:** Random Forest con recorte de outliers por IQR, transformación Yeo-Johnson y 107 variables seleccionadas por RFECV.
+- **Desempeño en test:** AUC 0,751 (IC95 0,694 a 0,802) y KS 0,449, con umbral operativo de 0,0835.
+- **Scorecard:** PDO = 50 y base 600, con 4 bandas (Crítico, Comprometido, Aceptable y Bueno) y cortes en 722, 762 y 792.
+- **Explicabilidad:** LIME en el API y SHAP en el notebook.
 
 ---
 
