@@ -1,0 +1,72 @@
+{
+  "model": {
+    "type": "RF",
+    "label": "RF",
+    "method": "single",
+    "members": [
+      "RF"
+    ],
+    "weights": {
+      "RF": 1.0
+    },
+    "threshold_operativo": 0.08352326288318561,
+    "threshold_origin": "Maxima separacion KS (TPR - FPR), promedio por fold (CV GroupKFold(5) por RUT, pipeline completo por fold)",
+    "selection_criterion": "Estrategia de cada modelo por AUC de validacion cruzada (GroupKFold(5) por RUT, tras el ajuste fino); modelo por mayor AUC de entrenamiento del modelo final",
+    "cv_auc_mean": 0.6881,
+    "cv_auc_std": 0.036,
+    "version": "3.0.0"
+  },
+  "training": {
+    "target": "Default en [t+1, t+12] (horizonte 12 meses): credito vencido, en gestion, moroso o castigado por atraso (>= 60 dias) en cualquier institucion",
+    "dataset": "combinado (empresas + agropecuario)",
+    "n_observations": 5843,
+    "n_companies": 3179,
+    "default_rate_observed": 0.07804210166010611,
+    "default_rate_train": 0.08017057569296375,
+    "n_features": 107
+  },
+  "performance": {
+    "test_auc": 0.7509785647716681,
+    "test_ks": 0.44919617893755825,
+    "test_auc_ic95": [
+      0.694,
+      0.802
+    ],
+    "overfit_gap": 0.0742
+  },
+  "scorecard": {
+    "thresholds": [
+      722,
+      762,
+      792
+    ],
+    "bands": [
+      "Critico",
+      "Comprometido",
+      "Aceptable",
+      "Bueno"
+    ],
+    "fit_sample": "train, CV out-of-fold",
+    "default_rates_observed_test": {
+      "Critico": 0.0811,
+      "Comprometido": 0.1641,
+      "Aceptable": 0.0414,
+      "Bueno": 0.0221
+    },
+    "iv_dev": 0.417,
+    "iv_test": 0.8421,
+    "pdo": 50,
+    "base_score": 600,
+    "score_range_theoretical": [
+      0,
+      1500
+    ]
+  },
+  "preprocessing": {
+    "imputation": "Mediana de train, dentro del pipeline (las medianas de las variables del modelo tambien se serializan y se aplican antes)",
+    "calibration": "Ninguna (probabilidades del modelo sin calibrar)",
+    "outlier_treatment": "IQR, dentro del pipeline (limites ajustados en train)",
+    "strategy": "IQR + YJ + RFECV + None",
+    "resampling": "Segun la estrategia elegida (ver notebook)"
+  }
+}

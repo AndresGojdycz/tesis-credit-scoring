@@ -1,0 +1,26 @@
+{
+ "fecha": "2026-11-05",
+ "criterio": "Estrategia de cada modelo por AUC de validacion cruzada (ajuste fino); modelo por mayor AUC de entrenamiento del modelo final (reentrenado con todo el entrenamiento). Cobertura de intereses = Resultado Operativo / Intereses Perdidos.",
+ "cv_auc": {
+  "LR": 0.6922,
+  "MLP": 0.6905,
+  "RF": 0.6881,
+  "XGB": 0.6827,
+  "DT": 0.6608
+ },
+ "train_auc_modelo_final": {
+  "RF": 0.8252,
+  "XGB": 0.8074,
+  "MLP": 0.7423,
+  "DT": 0.7256,
+  "LR": 0.711
+ },
+ "elegido": "RF",
+ "estrategia": "IQR + YJ + RFECV + None",
+ "anterior": {
+  "fecha": "2026-11-04",
+  "criterio": "Mayor AUC de validacion cruzada (mejor estrategia de cada modelo tras el ajuste fino)",
+  "elegido": "LR",
+  "estrategia": "Winsor + Deciles + Chi2_dec + None"
+ }
+}

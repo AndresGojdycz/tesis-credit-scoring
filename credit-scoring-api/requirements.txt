@@ -1,0 +1,28 @@
+# Credit Scoring API dependencies
+# Mantener alineado con pyproject.toml del proyecto raiz.
+
+# Web framework + ASGI server
+fastapi>=0.114
+uvicorn[standard]>=0.30
+
+# Scientific stack
+numpy==2.3.2                   # EXACTA a la version de entrenamiento (pyproject.toml)
+pandas==2.3.2                  # EXACTA: el pipeline serializado guarda objetos de pandas
+scipy==1.16.1                  # EXACTA (dependencia de sklearn)
+
+# Machine learning
+scikit-learn==1.7.1            # EXACTA a la version de entrenamiento: los pickles de sklearn no son portables entre versiones
+imbalanced-learn==0.14.1       # EXACTA (deserializa Pipelines con SMOTEENN del RF)
+xgboost==3.2.0                 # EXACTA (XGBoost es miembro del ensemble desplegado)
+joblib>=1.3
+
+# Explainability + LLM
+lime>=0.2.0.1
+openai>=1.0
+
+
+# Importador del formulario de estados contables del BROU (.xlsx)
+openpyxl>=3.1
+
+# Config
+python-dotenv>=1.0

@@ -1,0 +1,41 @@
+[project]
+name = "tesis"
+version = "0.1.0"
+description = "Credit scoring thesis project"
+requires-python = ">=3.13"
+dependencies = [
+    # Core scientific stack
+    "numpy==2.3.2",
+    "pandas==2.3.2",
+    "scipy==1.16.1",
+    # Visualization
+    "matplotlib==3.10.5",
+    "seaborn>=0.13.2",
+    # Machine learning
+    "scikit-learn==1.7.1",
+    "imbalanced-learn>=0.12.0",
+    "xgboost>=2.0",
+    # Modeling utilities
+    "joblib==1.5.2",
+    "threadpoolctl==3.6.0",
+    # Scorecard / stats
+    "scorecardpy==0.1.9.7",
+    "statsmodels==0.14.5",
+    "patsy==1.0.1",
+    # Notebooks / Jupyter
+    "ipykernel>=6.29",
+    "notebook>=7.0",
+    # API serving
+    "fastapi>=0.114",
+    "uvicorn[standard]>=0.30",
+    "lime>=0.2.0.1",
+    "shap==0.51.0",
+    "openpyxl>=3.1.5",
+    "xlrd==2.0.2",
+    "openai>=1.0",
+    "markitdown-ocr>=0.1.0",
+    "python-multipart>=0.0.27",
+    "pymupdf>=1.27.2.3",
+    "playwright>=1.60.0",
+    "plotnine>=0.15.2",
+]

@@ -1,0 +1,107 @@
+1. Caja
+2. Bancos
+3. Bancos M/E
+4. Sub-total - Disponibilidades
+5. Inversiones Temporarias
+6. Depositos en Garantia
+7. Creditos Vtas.Plaza
+8. Creditos Vtas.Exp.
+9. Documentos a cobrar
+10. Ctas. de Directores(6)
+11. Impuestos Adelantados
+12. Otros Creditos
+13. Bienes de Cambio
+14. Total Activo Corriente
+15. Bienes de Cambio L/P
+16. Bienes de Uso
+17. Otros Activos No Corrientes
+18. Total Activo no Corriente
+19. TOTAL ACTIVO
+20. Deudas Comercs
+21. Deudas BROU MNal.
+22. Deudas BROU MExt.
+23. Acreeds. Bancarios MNal.
+24. Acreeds. Bancarios MExt.
+25. Deudas Diversas
+26. Total Pasivo Corriente
+27. Deudas BROU MNal..1
+28. Deudas BROU MExt..1
+29. Acreeds. Bancarios
+30. Total Pasivo No Corriente
+31. TOTAL PASIVO
+32. Capital
+33. Ajustes al Patrim.
+34. Reservas
+35. +(gan) -(pérd) Res Acums.
+36. - Dividendo Provisorio
+37. Ajustes Activos/Pasivos
+38. Ajuste Resul. Neto Contable
+39. TOTAL PATRIMONIO
+40. Resultado por Tenencia -Ganaderia-NIC-41
+41. Total Ingresos Operativos
+42. Costo de lo Vendido
+43. Resultado Bruto
+44. Gastos  Ad.y Ventas.
+45. - Otros Gastos + Otros Ingresos
+46. Resultado Operativo
+47. Intereses Perdidos.
+48. Diferencia de Cambio Perdida.
+49. Diferencia de Cambio Ganada
+50. Impuestos
+51. Resultado Neto
+52. NUMERO_EMPLEADOS
+53. Amort. Acumuladas
+54. Adelantos Irrevocs.
+55. Revaluaciones
+56. Amortizaciones
+57. Otros Gastos(+)/Ingresos(-) Financieros
+58. Impto. a la Renta
+59. PIB
+60. PIB_var_trimestral
+61. PIB_var_interanual
+62. Desempleo
+63. Desempleo_var_trimestral
+64. Desempleo_var_interanual
+65. TIPO_SOCIEDAD_Otros
+66. TIPO_SOCIEDAD_Sociedad Anonima
+67. TIPO_SOCIEDAD_Sociedad de Hecho
+68. TIPO_SOCIEDAD_Sociedad de Resp. Limitada
+69. TIPO_SOCIEDAD_Sociedad en Comandita Simple
+70. TIPO_SOCIEDAD_Unipersonal
+71. ACTIVIDAD_ECONOMICA_CUL.DE PROD.AGRI.EN COMB.CON CRIA DE ANIM. EXPLOT.MIXTA
+72. ACTIVIDAD_ECONOMICA_EXPLOTACION GANADERA (EXCEPTO LECHERIA)
+73. ACTIVIDAD_ECONOMICA_OTRAS ACTIVIDADES DE SERVICIOS N.C.P.
+74. ACTIVIDAD_ECONOMICA_OTROS TIPOS DE VTA. AL POR MENOR NO REALIZ. EN ALMACEN.
+75. ACTIVIDAD_ECONOMICA_Otros
+76. ACTIVIDAD_ECONOMICA_TRANSPORTE DE CARGA POR CARRETERA
+77. tamaño_EMPRESA_Microempresa
+78. tamaño_EMPRESA_Pequena
+79. tamaño_EMPRESA_Mediana
+80. SECTOR_Agro
+81. SECTOR_Empresas
+82. Cobertura_de_intereses
+83. Relacion_deuda_patrimonio
+84. ROA
+85. ROE
+86. Ratio_Corriente
+87. Ratio_Efectivo
+88. Deuda_sobre_Activos
+89. Ratio_Patrimonio
+90. Margen_Bruto
+91. Ratio_GAV
+92. Rotacion_Activos
+93. Margen_Neto
+94. Prueba_Acida
+95. Importe_sobre_Ventas
+96. Importe_sobre_Patrimonio
+97. primera_observacion
+98. delta_Res_Op
+99. delta_Res_Neto
+100. delta_ROE
+101. delta_MgnNeto
+102. delta_MgnBruto
+103. delta_ROA
+104. delta_ActCte
+105. delta_Activo
+106. delta_Pasivo
+107. delta_Patrimonio

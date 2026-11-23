@@ -1,0 +1,727 @@
+﻿fecha,codigo,institucion,morosidad_pct
+2016-01,1,Banco de la República Oriental del Uruguay,3.31
+2016-01,113,Banco Itaú Uruguay SA,0.83
+2016-01,128,Scotiabank Uruguay S.A.,2.96
+2016-01,137,Banco Santander S.A.,1.56
+2016-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.56
+2016-01,157,HSBC Bank (Uruguay) S.A.,1.17
+2016-02,1,Banco de la República Oriental del Uruguay,3.78
+2016-02,113,Banco Itaú Uruguay SA,0.83
+2016-02,128,Scotiabank Uruguay S.A.,4.06
+2016-02,137,Banco Santander S.A.,1.73
+2016-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.63
+2016-02,157,HSBC Bank (Uruguay) S.A.,1.08
+2016-03,1,Banco de la República Oriental del Uruguay,3.95
+2016-03,113,Banco Itaú Uruguay SA,0.84
+2016-03,128,Scotiabank Uruguay S.A.,4.0
+2016-03,137,Banco Santander S.A.,1.75
+2016-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.7
+2016-03,157,HSBC Bank (Uruguay) S.A.,1.62
+2016-04,1,Banco de la República Oriental del Uruguay,4.53
+2016-04,113,Banco Itaú Uruguay SA,0.79
+2016-04,128,Scotiabank Uruguay S.A.,3.16
+2016-04,137,Banco Santander S.A.,1.97
+2016-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.7
+2016-04,157,HSBC Bank (Uruguay) S.A.,1.76
+2016-05,1,Banco de la República Oriental del Uruguay,5.38
+2016-05,113,Banco Itaú Uruguay SA,1.17
+2016-05,128,Scotiabank Uruguay S.A.,3.53
+2016-05,137,Banco Santander S.A.,2.16
+2016-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.75
+2016-05,157,HSBC Bank (Uruguay) S.A.,1.75
+2016-06,1,Banco de la República Oriental del Uruguay,4.72
+2016-06,113,Banco Itaú Uruguay SA,1.15
+2016-06,128,Scotiabank Uruguay S.A.,3.15
+2016-06,137,Banco Santander S.A.,1.87
+2016-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.74
+2016-06,157,HSBC Bank (Uruguay) S.A.,1.65
+2016-07,1,Banco de la República Oriental del Uruguay,4.93
+2016-07,113,Banco Itaú Uruguay SA,1.15
+2016-07,128,Scotiabank Uruguay S.A.,3.27
+2016-07,137,Banco Santander S.A.,2.03
+2016-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.79
+2016-07,157,HSBC Bank (Uruguay) S.A.,1.81
+2016-08,1,Banco de la República Oriental del Uruguay,5.06
+2016-08,113,Banco Itaú Uruguay SA,0.84
+2016-08,128,Scotiabank Uruguay S.A.,3.3
+2016-08,137,Banco Santander S.A.,2.07
+2016-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.74
+2016-08,157,HSBC Bank (Uruguay) S.A.,1.59
+2016-09,1,Banco de la República Oriental del Uruguay,5.82
+2016-09,113,Banco Itaú Uruguay SA,0.95
+2016-09,128,Scotiabank Uruguay S.A.,3.14
+2016-09,137,Banco Santander S.A.,1.95
+2016-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.81
+2016-09,157,HSBC Bank (Uruguay) S.A.,1.5
+2016-10,1,Banco de la República Oriental del Uruguay,5.97
+2016-10,113,Banco Itaú Uruguay SA,1.02
+2016-10,128,Scotiabank Uruguay S.A.,3.44
+2016-10,137,Banco Santander S.A.,2.03
+2016-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.88
+2016-10,157,HSBC Bank (Uruguay) S.A.,1.23
+2016-11,1,Banco de la República Oriental del Uruguay,6.01
+2016-11,113,Banco Itaú Uruguay SA,1.11
+2016-11,128,Scotiabank Uruguay S.A.,4.05
+2016-11,137,Banco Santander S.A.,1.81
+2016-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.79
+2016-11,157,HSBC Bank (Uruguay) S.A.,1.2
+2016-12,1,Banco de la República Oriental del Uruguay,5.69
+2016-12,113,Banco Itaú Uruguay SA,0.87
+2016-12,128,Scotiabank Uruguay S.A.,3.38
+2016-12,137,Banco Santander S.A.,1.8
+2016-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.77
+2016-12,157,HSBC Bank (Uruguay) S.A.,2.3
+2017-01,1,Banco de la República Oriental del Uruguay,6.24
+2017-01,113,Banco Itaú Uruguay SA,0.89
+2017-01,128,Scotiabank Uruguay S.A.,3.75
+2017-01,137,Banco Santander S.A.,2.13
+2017-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.82
+2017-01,157,HSBC Bank (Uruguay) S.A.,2.36
+2017-02,1,Banco de la República Oriental del Uruguay,6.04
+2017-02,113,Banco Itaú Uruguay SA,0.91
+2017-02,128,Scotiabank Uruguay S.A.,5.32
+2017-02,137,Banco Santander S.A.,1.98
+2017-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.85
+2017-02,157,HSBC Bank (Uruguay) S.A.,2.63
+2017-03,1,Banco de la República Oriental del Uruguay,6.21
+2017-03,113,Banco Itaú Uruguay SA,0.97
+2017-03,128,Scotiabank Uruguay S.A.,3.51
+2017-03,137,Banco Santander S.A.,2.15
+2017-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.85
+2017-03,157,HSBC Bank (Uruguay) S.A.,2.86
+2017-04,1,Banco de la República Oriental del Uruguay,7.03
+2017-04,113,Banco Itaú Uruguay SA,0.89
+2017-04,128,Scotiabank Uruguay S.A.,3.91
+2017-04,137,Banco Santander S.A.,2.12
+2017-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.87
+2017-04,157,HSBC Bank (Uruguay) S.A.,3.12
+2017-05,1,Banco de la República Oriental del Uruguay,7.74
+2017-05,113,Banco Itaú Uruguay SA,0.84
+2017-05,128,Scotiabank Uruguay S.A.,3.85
+2017-05,137,Banco Santander S.A.,2.33
+2017-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.01
+2017-05,157,HSBC Bank (Uruguay) S.A.,3.03
+2017-06,1,Banco de la República Oriental del Uruguay,5.93
+2017-06,113,Banco Itaú Uruguay SA,0.81
+2017-06,128,Scotiabank Uruguay S.A.,3.96
+2017-06,137,Banco Santander S.A.,2.28
+2017-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.03
+2017-06,157,HSBC Bank (Uruguay) S.A.,2.94
+2017-07,1,Banco de la República Oriental del Uruguay,6.13
+2017-07,113,Banco Itaú Uruguay SA,0.91
+2017-07,128,Scotiabank Uruguay S.A.,3.88
+2017-07,137,Banco Santander S.A.,2.4
+2017-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.09
+2017-07,157,HSBC Bank (Uruguay) S.A.,3.2
+2017-08,1,Banco de la República Oriental del Uruguay,6.51
+2017-08,113,Banco Itaú Uruguay SA,0.9
+2017-08,128,Scotiabank Uruguay S.A.,4.03
+2017-08,137,Banco Santander S.A.,2.33
+2017-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.61
+2017-08,157,HSBC Bank (Uruguay) S.A.,3.22
+2017-09,1,Banco de la República Oriental del Uruguay,6.24
+2017-09,113,Banco Itaú Uruguay SA,1.17
+2017-09,128,Scotiabank Uruguay S.A.,3.85
+2017-09,137,Banco Santander S.A.,2.03
+2017-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.76
+2017-09,157,HSBC Bank (Uruguay) S.A.,3.63
+2017-10,1,Banco de la República Oriental del Uruguay,6.27
+2017-10,113,Banco Itaú Uruguay SA,1.29
+2017-10,128,Scotiabank Uruguay S.A.,3.69
+2017-10,137,Banco Santander S.A.,2.19
+2017-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.97
+2017-10,157,HSBC Bank (Uruguay) S.A.,3.14
+2017-11,1,Banco de la República Oriental del Uruguay,6.5
+2017-11,113,Banco Itaú Uruguay SA,1.21
+2017-11,128,Scotiabank Uruguay S.A.,5.43
+2017-11,137,Banco Santander S.A.,2.22
+2017-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.03
+2017-11,157,HSBC Bank (Uruguay) S.A.,3.16
+2017-12,1,Banco de la República Oriental del Uruguay,6.1
+2017-12,113,Banco Itaú Uruguay SA,1.08
+2017-12,128,Scotiabank Uruguay S.A.,3.36
+2017-12,137,Banco Santander S.A.,2.15
+2017-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.73
+2017-12,157,HSBC Bank (Uruguay) S.A.,3.18
+2018-01,1,Banco de la República Oriental del Uruguay,6.43
+2018-01,113,Banco Itaú Uruguay SA,1.14
+2018-01,128,Scotiabank Uruguay S.A.,3.6
+2018-01,137,Banco Santander S.A.,2.29
+2018-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.28
+2018-01,157,HSBC Bank (Uruguay) S.A.,3.27
+2018-02,1,Banco de la República Oriental del Uruguay,6.33
+2018-02,113,Banco Itaú Uruguay SA,1.14
+2018-02,128,Scotiabank Uruguay S.A.,3.62
+2018-02,137,Banco Santander S.A.,2.28
+2018-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.3
+2018-02,157,HSBC Bank (Uruguay) S.A.,3.5
+2018-03,1,Banco de la República Oriental del Uruguay,6.44
+2018-03,113,Banco Itaú Uruguay SA,1.14
+2018-03,128,Scotiabank Uruguay S.A.,4.55
+2018-03,137,Banco Santander S.A.,1.95
+2018-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.14
+2018-03,157,HSBC Bank (Uruguay) S.A.,3.42
+2018-04,1,Banco de la República Oriental del Uruguay,6.57
+2018-04,113,Banco Itaú Uruguay SA,1.16
+2018-04,128,Scotiabank Uruguay S.A.,3.73
+2018-04,137,Banco Santander S.A.,2.07
+2018-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.14
+2018-04,157,HSBC Bank (Uruguay) S.A.,3.47
+2018-05,1,Banco de la República Oriental del Uruguay,6.2
+2018-05,113,Banco Itaú Uruguay SA,1.34
+2018-05,128,Scotiabank Uruguay S.A.,3.54
+2018-05,137,Banco Santander S.A.,2.14
+2018-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.13
+2018-05,157,HSBC Bank (Uruguay) S.A.,3.54
+2018-06,1,Banco de la República Oriental del Uruguay,6.15
+2018-06,113,Banco Itaú Uruguay SA,1.37
+2018-06,128,Scotiabank Uruguay S.A.,3.53
+2018-06,137,Banco Santander S.A.,2.16
+2018-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.03
+2018-06,157,HSBC Bank (Uruguay) S.A.,3.38
+2018-07,1,Banco de la República Oriental del Uruguay,6.22
+2018-07,113,Banco Itaú Uruguay SA,1.43
+2018-07,128,Scotiabank Uruguay S.A.,3.75
+2018-07,137,Banco Santander S.A.,2.14
+2018-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.18
+2018-07,157,HSBC Bank (Uruguay) S.A.,3.52
+2018-08,1,Banco de la República Oriental del Uruguay,7.49
+2018-08,113,Banco Itaú Uruguay SA,0.94
+2018-08,128,Scotiabank Uruguay S.A.,3.93
+2018-08,137,Banco Santander S.A.,2.16
+2018-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.09
+2018-08,157,HSBC Bank (Uruguay) S.A.,3.7
+2018-09,1,Banco de la República Oriental del Uruguay,6.54
+2018-09,113,Banco Itaú Uruguay SA,1.08
+2018-09,128,Scotiabank Uruguay S.A.,3.15
+2018-09,137,Banco Santander S.A.,2.21
+2018-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.81
+2018-09,157,HSBC Bank (Uruguay) S.A.,3.8
+2018-10,1,Banco de la República Oriental del Uruguay,6.15
+2018-10,113,Banco Itaú Uruguay SA,1.29
+2018-10,128,Scotiabank Uruguay S.A.,3.43
+2018-10,137,Banco Santander S.A.,2.15
+2018-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.83
+2018-10,157,HSBC Bank (Uruguay) S.A.,2.67
+2018-11,1,Banco de la República Oriental del Uruguay,5.58
+2018-11,113,Banco Itaú Uruguay SA,1.28
+2018-11,128,Scotiabank Uruguay S.A.,3.74
+2018-11,137,Banco Santander S.A.,2.2
+2018-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.18
+2018-11,157,HSBC Bank (Uruguay) S.A.,2.77
+2018-12,1,Banco de la República Oriental del Uruguay,5.47
+2018-12,113,Banco Itaú Uruguay SA,1.31
+2018-12,128,Scotiabank Uruguay S.A.,3.35
+2018-12,137,Banco Santander S.A.,2.12
+2018-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.08
+2018-12,157,HSBC Bank (Uruguay) S.A.,2.4
+2019-01,1,Banco de la República Oriental del Uruguay,4.37
+2019-01,113,Banco Itaú Uruguay SA,1.31
+2019-01,128,Scotiabank Uruguay S.A.,4.78
+2019-01,137,Banco Santander S.A.,2.26
+2019-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.28
+2019-01,157,HSBC Bank (Uruguay) S.A.,2.43
+2019-02,1,Banco de la República Oriental del Uruguay,4.56
+2019-02,113,Banco Itaú Uruguay SA,1.26
+2019-02,128,Scotiabank Uruguay S.A.,3.58
+2019-02,137,Banco Santander S.A.,2.4
+2019-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.43
+2019-02,157,HSBC Bank (Uruguay) S.A.,2.65
+2019-03,1,Banco de la República Oriental del Uruguay,4.65
+2019-03,113,Banco Itaú Uruguay SA,1.44
+2019-03,128,Scotiabank Uruguay S.A.,2.91
+2019-03,137,Banco Santander S.A.,2.37
+2019-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.15
+2019-03,157,HSBC Bank (Uruguay) S.A.,2.67
+2019-04,1,Banco de la República Oriental del Uruguay,5.08
+2019-04,113,Banco Itaú Uruguay SA,1.6
+2019-04,128,Scotiabank Uruguay S.A.,3.13
+2019-04,137,Banco Santander S.A.,2.45
+2019-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.1
+2019-04,157,HSBC Bank (Uruguay) S.A.,2.43
+2019-05,1,Banco de la República Oriental del Uruguay,5.16
+2019-05,113,Banco Itaú Uruguay SA,1.52
+2019-05,128,Scotiabank Uruguay S.A.,3.38
+2019-05,137,Banco Santander S.A.,2.44
+2019-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.05
+2019-05,157,HSBC Bank (Uruguay) S.A.,2.82
+2019-06,1,Banco de la República Oriental del Uruguay,4.63
+2019-06,113,Banco Itaú Uruguay SA,1.51
+2019-06,128,Scotiabank Uruguay S.A.,2.85
+2019-06,137,Banco Santander S.A.,2.42
+2019-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.89
+2019-06,157,HSBC Bank (Uruguay) S.A.,2.9
+2019-07,1,Banco de la República Oriental del Uruguay,4.62
+2019-07,113,Banco Itaú Uruguay SA,1.23
+2019-07,128,Scotiabank Uruguay S.A.,3.32
+2019-07,137,Banco Santander S.A.,2.5
+2019-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.15
+2019-07,157,HSBC Bank (Uruguay) S.A.,2.82
+2019-08,1,Banco de la República Oriental del Uruguay,5.58
+2019-08,113,Banco Itaú Uruguay SA,1.13
+2019-08,128,Scotiabank Uruguay S.A.,3.33
+2019-08,137,Banco Santander S.A.,2.59
+2019-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.06
+2019-08,157,HSBC Bank (Uruguay) S.A.,2.86
+2019-09,1,Banco de la República Oriental del Uruguay,5.5
+2019-09,113,Banco Itaú Uruguay SA,1.05
+2019-09,128,Scotiabank Uruguay S.A.,2.84
+2019-09,137,Banco Santander S.A.,2.38
+2019-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.13
+2019-09,157,HSBC Bank (Uruguay) S.A.,2.97
+2019-10,1,Banco de la República Oriental del Uruguay,4.77
+2019-10,113,Banco Itaú Uruguay SA,1.03
+2019-10,128,Scotiabank Uruguay S.A.,2.82
+2019-10,137,Banco Santander S.A.,2.2
+2019-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.16
+2019-10,157,HSBC Bank (Uruguay) S.A.,2.42
+2019-11,1,Banco de la República Oriental del Uruguay,4.82
+2019-11,113,Banco Itaú Uruguay SA,1.06
+2019-11,128,Scotiabank Uruguay S.A.,3.41
+2019-11,137,Banco Santander S.A.,2.41
+2019-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.24
+2019-11,157,HSBC Bank (Uruguay) S.A.,2.34
+2019-12,1,Banco de la República Oriental del Uruguay,4.66
+2019-12,113,Banco Itaú Uruguay SA,1.03
+2019-12,128,Scotiabank Uruguay S.A.,3.1
+2019-12,137,Banco Santander S.A.,2.4
+2019-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.22
+2019-12,157,HSBC Bank (Uruguay) S.A.,2.31
+2020-01,1,Banco de la República Oriental del Uruguay,4.81
+2020-01,113,Banco Itaú Uruguay SA,1.38
+2020-01,128,Scotiabank Uruguay S.A.,3.16
+2020-01,137,Banco Santander S.A.,2.54
+2020-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,3.34
+2020-01,157,HSBC Bank (Uruguay) S.A.,2.4
+2020-02,1,Banco de la República Oriental del Uruguay,4.93
+2020-02,113,Banco Itaú Uruguay SA,1.41
+2020-02,128,Scotiabank Uruguay S.A.,3.6
+2020-02,137,Banco Santander S.A.,2.69
+2020-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.83
+2020-02,157,HSBC Bank (Uruguay) S.A.,2.42
+2020-03,1,Banco de la República Oriental del Uruguay,5.36
+2020-03,113,Banco Itaú Uruguay SA,1.36
+2020-03,128,Scotiabank Uruguay S.A.,4.05
+2020-03,137,Banco Santander S.A.,2.42
+2020-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.82
+2020-03,157,HSBC Bank (Uruguay) S.A.,2.52
+2020-04,1,Banco de la República Oriental del Uruguay,5.36
+2020-04,113,Banco Itaú Uruguay SA,1.46
+2020-04,128,Scotiabank Uruguay S.A.,4.17
+2020-04,137,Banco Santander S.A.,2.62
+2020-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.83
+2020-04,157,HSBC Bank (Uruguay) S.A.,2.4
+2020-05,1,Banco de la República Oriental del Uruguay,5.13
+2020-05,113,Banco Itaú Uruguay SA,1.34
+2020-05,128,Scotiabank Uruguay S.A.,3.95
+2020-05,137,Banco Santander S.A.,2.59
+2020-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.78
+2020-05,157,HSBC Bank (Uruguay) S.A.,2.8
+2020-06,1,Banco de la República Oriental del Uruguay,4.96
+2020-06,113,Banco Itaú Uruguay SA,1.29
+2020-06,128,Scotiabank Uruguay S.A.,3.45
+2020-06,137,Banco Santander S.A.,2.29
+2020-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,2.69
+2020-06,157,HSBC Bank (Uruguay) S.A.,2.26
+2020-07,1,Banco de la República Oriental del Uruguay,4.67
+2020-07,113,Banco Itaú Uruguay SA,1.27
+2020-07,128,Scotiabank Uruguay S.A.,3.68
+2020-07,137,Banco Santander S.A.,2.2
+2020-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.75
+2020-07,157,HSBC Bank (Uruguay) S.A.,2.24
+2020-08,1,Banco de la República Oriental del Uruguay,4.49
+2020-08,113,Banco Itaú Uruguay SA,1.33
+2020-08,128,Scotiabank Uruguay S.A.,3.29
+2020-08,137,Banco Santander S.A.,2.02
+2020-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.78
+2020-08,157,HSBC Bank (Uruguay) S.A.,2.21
+2020-09,1,Banco de la República Oriental del Uruguay,4.51
+2020-09,113,Banco Itaú Uruguay SA,1.17
+2020-09,128,Scotiabank Uruguay S.A.,3.21
+2020-09,137,Banco Santander S.A.,2.0
+2020-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.86
+2020-09,157,HSBC Bank (Uruguay) S.A.,2.29
+2020-10,1,Banco de la República Oriental del Uruguay,4.53
+2020-10,113,Banco Itaú Uruguay SA,1.14
+2020-10,128,Scotiabank Uruguay S.A.,2.93
+2020-10,137,Banco Santander S.A.,1.94
+2020-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.84
+2020-10,157,HSBC Bank (Uruguay) S.A.,2.22
+2020-11,1,Banco de la República Oriental del Uruguay,4.95
+2020-11,113,Banco Itaú Uruguay SA,1.62
+2020-11,128,Scotiabank Uruguay S.A.,3.25
+2020-11,137,Banco Santander S.A.,2.14
+2020-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.91
+2020-11,157,HSBC Bank (Uruguay) S.A.,2.18
+2020-12,1,Banco de la República Oriental del Uruguay,4.58
+2020-12,113,Banco Itaú Uruguay SA,1.55
+2020-12,128,Scotiabank Uruguay S.A.,2.46
+2020-12,137,Banco Santander S.A.,1.88
+2020-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.68
+2020-12,157,HSBC Bank (Uruguay) S.A.,1.94
+2021-01,1,Banco de la República Oriental del Uruguay,5.04
+2021-01,113,Banco Itaú Uruguay SA,1.62
+2021-01,128,Scotiabank Uruguay S.A.,2.4
+2021-01,137,Banco Santander S.A.,1.74
+2021-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.56
+2021-01,157,HSBC Bank (Uruguay) S.A.,1.97
+2021-02,1,Banco de la República Oriental del Uruguay,4.85
+2021-02,113,Banco Itaú Uruguay SA,1.02
+2021-02,128,Scotiabank Uruguay S.A.,2.62
+2021-02,137,Banco Santander S.A.,1.75
+2021-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.62
+2021-02,157,HSBC Bank (Uruguay) S.A.,1.94
+2021-03,1,Banco de la República Oriental del Uruguay,4.97
+2021-03,113,Banco Itaú Uruguay SA,1.03
+2021-03,128,Scotiabank Uruguay S.A.,2.24
+2021-03,137,Banco Santander S.A.,1.81
+2021-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.64
+2021-03,157,HSBC Bank (Uruguay) S.A.,1.89
+2021-04,1,Banco de la República Oriental del Uruguay,5.19
+2021-04,113,Banco Itaú Uruguay SA,1.0
+2021-04,128,Scotiabank Uruguay S.A.,2.12
+2021-04,137,Banco Santander S.A.,1.9
+2021-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.62
+2021-04,157,HSBC Bank (Uruguay) S.A.,1.93
+2021-05,1,Banco de la República Oriental del Uruguay,4.38
+2021-05,113,Banco Itaú Uruguay SA,0.96
+2021-05,128,Scotiabank Uruguay S.A.,2.32
+2021-05,137,Banco Santander S.A.,1.92
+2021-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.63
+2021-05,157,HSBC Bank (Uruguay) S.A.,1.43
+2021-06,1,Banco de la República Oriental del Uruguay,4.11
+2021-06,113,Banco Itaú Uruguay SA,0.99
+2021-06,128,Scotiabank Uruguay S.A.,2.03
+2021-06,137,Banco Santander S.A.,1.83
+2021-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.66
+2021-06,157,HSBC Bank (Uruguay) S.A.,1.32
+2021-07,1,Banco de la República Oriental del Uruguay,3.93
+2021-07,113,Banco Itaú Uruguay SA,0.93
+2021-07,128,Scotiabank Uruguay S.A.,1.81
+2021-07,137,Banco Santander S.A.,1.75
+2021-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.6
+2021-07,157,HSBC Bank (Uruguay) S.A.,1.25
+2021-08,1,Banco de la República Oriental del Uruguay,3.56
+2021-08,113,Banco Itaú Uruguay SA,0.9
+2021-08,128,Scotiabank Uruguay S.A.,1.75
+2021-08,137,Banco Santander S.A.,1.82
+2021-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.55
+2021-08,157,HSBC Bank (Uruguay) S.A.,1.22
+2021-09,1,Banco de la República Oriental del Uruguay,2.87
+2021-09,113,Banco Itaú Uruguay SA,0.84
+2021-09,128,Scotiabank Uruguay S.A.,1.59
+2021-09,137,Banco Santander S.A.,1.34
+2021-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.52
+2021-09,157,HSBC Bank (Uruguay) S.A.,1.23
+2021-10,1,Banco de la República Oriental del Uruguay,2.6
+2021-10,113,Banco Itaú Uruguay SA,0.82
+2021-10,128,Scotiabank Uruguay S.A.,1.47
+2021-10,137,Banco Santander S.A.,1.46
+2021-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.47
+2021-10,157,HSBC Bank (Uruguay) S.A.,1.23
+2021-11,1,Banco de la República Oriental del Uruguay,2.55
+2021-11,113,Banco Itaú Uruguay SA,0.77
+2021-11,128,Scotiabank Uruguay S.A.,1.42
+2021-11,137,Banco Santander S.A.,1.46
+2021-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.37
+2021-11,157,HSBC Bank (Uruguay) S.A.,1.33
+2021-12,1,Banco de la República Oriental del Uruguay,2.36
+2021-12,113,Banco Itaú Uruguay SA,0.51
+2021-12,128,Scotiabank Uruguay S.A.,1.31
+2021-12,137,Banco Santander S.A.,1.39
+2021-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.07
+2021-12,157,HSBC Bank (Uruguay) S.A.,1.25
+2022-01,1,Banco de la República Oriental del Uruguay,2.58
+2022-01,113,Banco Itaú Uruguay SA,0.52
+2022-01,128,Scotiabank Uruguay S.A.,1.5
+2022-01,137,Banco Santander S.A.,1.47
+2022-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.14
+2022-01,157,HSBC Bank (Uruguay) S.A.,1.28
+2022-02,1,Banco de la República Oriental del Uruguay,2.62
+2022-02,113,Banco Itaú Uruguay SA,0.59
+2022-02,128,Scotiabank Uruguay S.A.,1.34
+2022-02,137,Banco Santander S.A.,1.54
+2022-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.12
+2022-02,157,HSBC Bank (Uruguay) S.A.,1.34
+2022-03,1,Banco de la República Oriental del Uruguay,2.49
+2022-03,113,Banco Itaú Uruguay SA,0.57
+2022-03,128,Scotiabank Uruguay S.A.,1.25
+2022-03,137,Banco Santander S.A.,1.28
+2022-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.15
+2022-03,157,HSBC Bank (Uruguay) S.A.,1.18
+2022-04,1,Banco de la República Oriental del Uruguay,2.78
+2022-04,113,Banco Itaú Uruguay SA,0.56
+2022-04,128,Scotiabank Uruguay S.A.,1.39
+2022-04,137,Banco Santander S.A.,1.35
+2022-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.15
+2022-04,157,HSBC Bank (Uruguay) S.A.,1.23
+2022-05,1,Banco de la República Oriental del Uruguay,3.67
+2022-05,113,Banco Itaú Uruguay SA,0.58
+2022-05,128,Scotiabank Uruguay S.A.,1.36
+2022-05,137,Banco Santander S.A.,1.4
+2022-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.08
+2022-05,157,HSBC Bank (Uruguay) S.A.,1.21
+2022-06,1,Banco de la República Oriental del Uruguay,3.72
+2022-06,113,Banco Itaú Uruguay SA,0.56
+2022-06,128,Scotiabank Uruguay S.A.,1.27
+2022-06,137,Banco Santander S.A.,1.44
+2022-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.07
+2022-06,157,HSBC Bank (Uruguay) S.A.,1.18
+2022-07,1,Banco de la República Oriental del Uruguay,2.99
+2022-07,113,Banco Itaú Uruguay SA,0.58
+2022-07,128,Scotiabank Uruguay S.A.,1.4
+2022-07,137,Banco Santander S.A.,1.45
+2022-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.06
+2022-07,157,HSBC Bank (Uruguay) S.A.,1.19
+2022-08,1,Banco de la República Oriental del Uruguay,3.0
+2022-08,113,Banco Itaú Uruguay SA,0.62
+2022-08,128,Scotiabank Uruguay S.A.,1.41
+2022-08,137,Banco Santander S.A.,1.53
+2022-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.0
+2022-08,157,HSBC Bank (Uruguay) S.A.,1.16
+2022-09,1,Banco de la República Oriental del Uruguay,2.85
+2022-09,113,Banco Itaú Uruguay SA,0.64
+2022-09,128,Scotiabank Uruguay S.A.,1.41
+2022-09,137,Banco Santander S.A.,1.27
+2022-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.98
+2022-09,157,HSBC Bank (Uruguay) S.A.,1.11
+2022-10,1,Banco de la República Oriental del Uruguay,2.77
+2022-10,113,Banco Itaú Uruguay SA,0.64
+2022-10,128,Scotiabank Uruguay S.A.,1.72
+2022-10,137,Banco Santander S.A.,1.37
+2022-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.66
+2022-10,157,HSBC Bank (Uruguay) S.A.,1.07
+2022-11,1,Banco de la República Oriental del Uruguay,2.64
+2022-11,113,Banco Itaú Uruguay SA,0.64
+2022-11,128,Scotiabank Uruguay S.A.,1.74
+2022-11,137,Banco Santander S.A.,1.47
+2022-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.64
+2022-11,157,HSBC Bank (Uruguay) S.A.,1.07
+2022-12,1,Banco de la República Oriental del Uruguay,2.61
+2022-12,113,Banco Itaú Uruguay SA,0.63
+2022-12,128,Scotiabank Uruguay S.A.,1.68
+2022-12,137,Banco Santander S.A.,1.29
+2022-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.63
+2022-12,157,HSBC Bank (Uruguay) S.A.,1.11
+2023-01,1,Banco de la República Oriental del Uruguay,2.91
+2023-01,113,Banco Itaú Uruguay SA,0.67
+2023-01,128,Scotiabank Uruguay S.A.,1.7
+2023-01,137,Banco Santander S.A.,1.47
+2023-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.65
+2023-01,157,HSBC Bank (Uruguay) S.A.,1.38
+2023-02,1,Banco de la República Oriental del Uruguay,3.05
+2023-02,113,Banco Itaú Uruguay SA,0.67
+2023-02,128,Scotiabank Uruguay S.A.,1.91
+2023-02,137,Banco Santander S.A.,1.53
+2023-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.68
+2023-02,157,HSBC Bank (Uruguay) S.A.,1.47
+2023-03,1,Banco de la República Oriental del Uruguay,2.97
+2023-03,113,Banco Itaú Uruguay SA,0.7
+2023-03,128,Scotiabank Uruguay S.A.,1.78
+2023-03,137,Banco Santander S.A.,1.44
+2023-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.73
+2023-03,157,HSBC Bank (Uruguay) S.A.,1.51
+2023-04,1,Banco de la República Oriental del Uruguay,3.16
+2023-04,113,Banco Itaú Uruguay SA,0.73
+2023-04,128,Scotiabank Uruguay S.A.,2.02
+2023-04,137,Banco Santander S.A.,1.51
+2023-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.79
+2023-04,157,HSBC Bank (Uruguay) S.A.,1.61
+2023-05,1,Banco de la República Oriental del Uruguay,3.25
+2023-05,113,Banco Itaú Uruguay SA,0.74
+2023-05,128,Scotiabank Uruguay S.A.,2.07
+2023-05,137,Banco Santander S.A.,1.59
+2023-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.71
+2023-05,157,HSBC Bank (Uruguay) S.A.,1.48
+2023-06,1,Banco de la República Oriental del Uruguay,3.28
+2023-06,113,Banco Itaú Uruguay SA,0.77
+2023-06,128,Scotiabank Uruguay S.A.,1.97
+2023-06,137,Banco Santander S.A.,1.67
+2023-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.79
+2023-06,157,HSBC Bank (Uruguay) S.A.,1.39
+2023-07,1,Banco de la República Oriental del Uruguay,3.32
+2023-07,113,Banco Itaú Uruguay SA,0.77
+2023-07,128,Scotiabank Uruguay S.A.,1.98
+2023-07,137,Banco Santander S.A.,1.82
+2023-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.3
+2023-07,157,HSBC Bank (Uruguay) S.A.,1.47
+2023-08,1,Banco de la República Oriental del Uruguay,3.84
+2023-08,113,Banco Itaú Uruguay SA,0.89
+2023-08,128,Scotiabank Uruguay S.A.,2.15
+2023-08,137,Banco Santander S.A.,1.77
+2023-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.75
+2023-08,157,HSBC Bank (Uruguay) S.A.,1.52
+2023-09,1,Banco de la República Oriental del Uruguay,3.62
+2023-09,113,Banco Itaú Uruguay SA,0.75
+2023-09,128,Scotiabank Uruguay S.A.,2.08
+2023-09,137,Banco Santander S.A.,1.57
+2023-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.78
+2023-09,157,HSBC Bank (Uruguay) S.A.,1.39
+2023-10,1,Banco de la República Oriental del Uruguay,3.59
+2023-10,113,Banco Itaú Uruguay SA,0.71
+2023-10,128,Scotiabank Uruguay S.A.,2.13
+2023-10,137,Banco Santander S.A.,1.58
+2023-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.8
+2023-10,157,HSBC Bank (Uruguay) S.A.,1.4
+2023-11,1,Banco de la República Oriental del Uruguay,3.5
+2023-11,113,Banco Itaú Uruguay SA,0.72
+2023-11,128,Scotiabank Uruguay S.A.,2.11
+2023-11,137,Banco Santander S.A.,1.66
+2023-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.79
+2023-11,157,HSBC Bank (Uruguay) S.A.,1.65
+2023-12,1,Banco de la República Oriental del Uruguay,2.95
+2023-12,113,Banco Itaú Uruguay SA,0.72
+2023-12,128,Scotiabank Uruguay S.A.,1.61
+2023-12,137,Banco Santander S.A.,1.7
+2023-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.79
+2023-12,157,HSBC Bank (Uruguay) S.A.,1.38
+2024-01,1,Banco de la República Oriental del Uruguay,2.95
+2024-01,113,Banco Itaú Uruguay SA,0.83
+2024-01,128,Scotiabank Uruguay S.A.,1.55
+2024-01,137,Banco Santander S.A.,1.75
+2024-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.86
+2024-01,157,HSBC Bank (Uruguay) S.A.,1.46
+2024-02,1,Banco de la República Oriental del Uruguay,3.02
+2024-02,113,Banco Itaú Uruguay SA,0.87
+2024-02,128,Scotiabank Uruguay S.A.,1.67
+2024-02,137,Banco Santander S.A.,1.82
+2024-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.82
+2024-02,157,HSBC Bank (Uruguay) S.A.,1.46
+2024-03,1,Banco de la República Oriental del Uruguay,3.11
+2024-03,113,Banco Itaú Uruguay SA,0.94
+2024-03,128,Scotiabank Uruguay S.A.,1.51
+2024-03,137,Banco Santander S.A.,1.94
+2024-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.86
+2024-03,157,HSBC Bank (Uruguay) S.A.,1.53
+2024-04,1,Banco de la República Oriental del Uruguay,2.94
+2024-04,113,Banco Itaú Uruguay SA,0.95
+2024-04,128,Scotiabank Uruguay S.A.,1.52
+2024-04,137,Banco Santander S.A.,2.02
+2024-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.91
+2024-04,157,HSBC Bank (Uruguay) S.A.,1.49
+2024-05,1,Banco de la República Oriental del Uruguay,2.81
+2024-05,113,Banco Itaú Uruguay SA,0.92
+2024-05,128,Scotiabank Uruguay S.A.,1.59
+2024-05,137,Banco Santander S.A.,2.05
+2024-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.88
+2024-05,157,HSBC Bank (Uruguay) S.A.,1.85
+2024-06,1,Banco de la República Oriental del Uruguay,2.78
+2024-06,113,Banco Itaú Uruguay SA,0.89
+2024-06,128,Scotiabank Uruguay S.A.,1.59
+2024-06,137,Banco Santander S.A.,2.14
+2024-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.9
+2024-06,157,HSBC Bank (Uruguay) S.A.,1.74
+2024-07,1,Banco de la República Oriental del Uruguay,2.92
+2024-07,113,Banco Itaú Uruguay SA,0.89
+2024-07,128,Scotiabank Uruguay S.A.,1.61
+2024-07,137,Banco Santander S.A.,2.2
+2024-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.02
+2024-07,157,HSBC Bank (Uruguay) S.A.,1.65
+2024-08,1,Banco de la República Oriental del Uruguay,2.98
+2024-08,113,Banco Itaú Uruguay SA,1.03
+2024-08,128,Scotiabank Uruguay S.A.,1.75
+2024-08,137,Banco Santander S.A.,2.21
+2024-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,0.98
+2024-08,157,HSBC Bank (Uruguay) S.A.,1.61
+2024-09,1,Banco de la República Oriental del Uruguay,3.06
+2024-09,113,Banco Itaú Uruguay SA,0.98
+2024-09,128,Scotiabank Uruguay S.A.,1.64
+2024-09,137,Banco Santander S.A.,1.68
+2024-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.05
+2024-09,157,HSBC Bank (Uruguay) S.A.,1.58
+2024-10,1,Banco de la República Oriental del Uruguay,2.66
+2024-10,113,Banco Itaú Uruguay SA,1.01
+2024-10,128,Scotiabank Uruguay S.A.,1.62
+2024-10,137,Banco Santander S.A.,1.67
+2024-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.08
+2024-10,157,HSBC Bank (Uruguay) S.A.,1.62
+2024-11,1,Banco de la República Oriental del Uruguay,2.58
+2024-11,113,Banco Itaú Uruguay SA,0.83
+2024-11,128,Scotiabank Uruguay S.A.,1.73
+2024-11,137,Banco Santander S.A.,1.76
+2024-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.01
+2024-11,157,HSBC Bank (Uruguay) S.A.,1.54
+2024-12,1,Banco de la República Oriental del Uruguay,2.5
+2024-12,113,Banco Itaú Uruguay SA,0.84
+2024-12,128,Scotiabank Uruguay S.A.,1.63
+2024-12,137,Banco Santander S.A.,1.7
+2024-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.02
+2024-12,157,HSBC Bank (Uruguay) S.A.,1.49
+2025-01,1,Banco de la República Oriental del Uruguay,2.42
+2025-01,113,Banco Itaú Uruguay SA,0.87
+2025-01,128,Scotiabank Uruguay S.A.,1.69
+2025-01,137,Banco Santander S.A.,1.84
+2025-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.08
+2025-01,157,HSBC Bank (Uruguay) S.A.,1.66
+2025-02,1,Banco de la República Oriental del Uruguay,2.48
+2025-02,113,Banco Itaú Uruguay SA,0.89
+2025-02,128,Scotiabank Uruguay S.A.,1.79
+2025-02,137,Banco Santander S.A.,1.88
+2025-02,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.16
+2025-02,157,HSBC Bank (Uruguay) S.A.,1.58
+2025-03,1,Banco de la República Oriental del Uruguay,2.36
+2025-03,113,Banco Itaú Uruguay SA,0.9
+2025-03,128,Scotiabank Uruguay S.A.,1.67
+2025-03,137,Banco Santander S.A.,1.76
+2025-03,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.11
+2025-03,157,HSBC Bank (Uruguay) S.A.,1.68
+2025-04,1,Banco de la República Oriental del Uruguay,2.41
+2025-04,113,Banco Itaú Uruguay SA,0.9
+2025-04,128,Scotiabank Uruguay S.A.,1.84
+2025-04,137,Banco Santander S.A.,1.92
+2025-04,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.13
+2025-04,157,HSBC Bank (Uruguay) S.A.,1.76
+2025-05,1,Banco de la República Oriental del Uruguay,2.4
+2025-05,113,Banco Itaú Uruguay SA,0.88
+2025-05,128,Scotiabank Uruguay S.A.,1.84
+2025-05,137,Banco Santander S.A.,2.03
+2025-05,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.15
+2025-05,157,HSBC Bank (Uruguay) S.A.,1.82
+2025-06,1,Banco de la República Oriental del Uruguay,2.44
+2025-06,113,Banco Itaú Uruguay SA,0.98
+2025-06,128,Scotiabank Uruguay S.A.,1.87
+2025-06,137,Banco Santander S.A.,2.22
+2025-06,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.17
+2025-06,157,HSBC Bank (Uruguay) S.A.,1.77
+2025-07,1,Banco de la República Oriental del Uruguay,2.3
+2025-07,113,Banco Itaú Uruguay SA,0.96
+2025-07,128,Scotiabank Uruguay S.A.,1.84
+2025-07,137,Banco Santander S.A.,2.35
+2025-07,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.21
+2025-07,157,HSBC Bank (Uruguay) S.A.,1.74
+2025-08,1,Banco de la República Oriental del Uruguay,2.36
+2025-08,113,Banco Itaú Uruguay SA,1.0
+2025-08,128,Scotiabank Uruguay S.A.,1.99
+2025-08,137,Banco Santander S.A.,1.81
+2025-08,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.25
+2025-08,157,HSBC Bank (Uruguay) S.A.,1.79
+2025-09,1,Banco de la República Oriental del Uruguay,2.4
+2025-09,113,Banco Itaú Uruguay SA,1.11
+2025-09,128,Scotiabank Uruguay S.A.,1.92
+2025-09,137,Banco Santander S.A.,1.94
+2025-09,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.33
+2025-09,157,HSBC Bank (Uruguay) S.A.,1.81
+2025-10,1,Banco de la República Oriental del Uruguay,2.37
+2025-10,113,Banco Itaú Uruguay SA,1.02
+2025-10,128,Scotiabank Uruguay S.A.,1.92
+2025-10,137,Banco Santander S.A.,2.0
+2025-10,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.37
+2025-10,157,HSBC Bank (Uruguay) S.A.,1.74
+2025-11,1,Banco de la República Oriental del Uruguay,2.42
+2025-11,113,Banco Itaú Uruguay SA,0.95
+2025-11,128,Scotiabank Uruguay S.A.,1.92
+2025-11,137,Banco Santander S.A.,2.13
+2025-11,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.19
+2025-11,157,HSBC Bank (Uruguay) S.A.,1.49
+2025-12,1,Banco de la República Oriental del Uruguay,2.33
+2025-12,113,Banco Itaú Uruguay SA,0.92
+2025-12,128,Scotiabank Uruguay S.A.,1.78
+2025-12,137,Banco Santander S.A.,1.95
+2025-12,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.18
+2025-12,157,HSBC Bank (Uruguay) S.A.,1.5
+2026-01,1,Banco de la República Oriental del Uruguay,2.42
+2026-01,113,Banco Itaú Uruguay SA,0.95
+2026-01,128,Scotiabank Uruguay S.A.,1.8
+2026-01,137,Banco Santander S.A.,2.12
+2026-01,153,Banco Bilbao Vizcaya Argentaria Uruguay S.A.,1.21
+2026-01,157,HSBC Bank (Uruguay) S.A.,1.51
